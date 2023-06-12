@@ -1,0 +1,11 @@
+<div class="mt-4 ms-1 ps-3 py-2 border-start border-5">
+    <%= params[:question] %>
+    <br>
+    <p><em>-You</em></p>
+</div>
+<div class="alert-warning mt-4 ms-1 mb-3 ps-3 py-2 border-start border-5">
+    <strong><%= @answer %></strong>
+    <br>
+    <p><em>-Your coatch</em></p>
+</div>
+<%= link_to "Ask a new question", "/" %>
